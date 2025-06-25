@@ -29,6 +29,7 @@ description
 			keywords = <"EAU NMIBC, bladder cancer, WHO grading, risk groups, TURBT", ...>
 			copyright = <"© openEHR Foundation">
 			use = <"To record the prognostic risk group classification of non–muscle-invasive bladder cancer (NMIBC) patients according to the European Association of Urology (EAU) 2021 model, based on WHO 2004/2016 or WHO 1973 grading systems.">
+			misuse = <"Noe her.">
 		>
 		["en"] = <
 			language = <[ISO_639-1::en]>
