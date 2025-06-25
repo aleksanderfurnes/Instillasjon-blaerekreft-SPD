@@ -26,10 +26,9 @@ description
 		["nb"] = <
 			language = <[ISO_639-1::nb]>
 			purpose = <"To stratify patients with non–muscle-invasive bladder cancer (NMIBC) into prognostic risk groups using the EAU 2021 model based on WHO 2004/2016 or WHO 1973 grading systems, to support clinical decision-making regarding treatment following transurethral resection of bladder tumor (TURBT).">
-			keywords = <"EAU NMIBC, bladder cancer, WHO grading, risk groups, TURBT", ...>
+			keywords = <"EAU NMIBC, bladder cancer, WHO grading, risk groups, TURBT, test", ...>
 			copyright = <"© openEHR Foundation">
 			use = <"To record the prognostic risk group classification of non–muscle-invasive bladder cancer (NMIBC) patients according to the European Association of Urology (EAU) 2021 model, based on WHO 2004/2016 or WHO 1973 grading systems.">
-			misuse = <"Noe annet">
 		>
 		["en"] = <
 			language = <[ISO_639-1::en]>
