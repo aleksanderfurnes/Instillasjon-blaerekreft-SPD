@@ -44,7 +44,7 @@ description
 		["original_namespace"] = <"org.openehr">
 		["original_publisher"] = <"openEHR Foundation">
 		["custodian_namespace"] = <"org.openehr">
-		["MD5-CAM-1.0.1"] = <"3ba18b1cb8785cf38357da7ff7768c49">
+		["MD5-CAM-1.0.1"] = <"43f8670c2cc339a134b2d5730d96a536">
 		["build_uid"] = <"b71072ad-1d6a-36d4-ba76-3b2a047ff712">
 	>
 
@@ -216,11 +216,11 @@ ontology
 				>
 				["at0016"] = <
 					text = <"Ta">
-					description = <"">
+					description = <"Non-invasive papillary tumor confined to the urothelium.">
 				>
 				["at0017"] = <
 					text = <"T1">
-					description = <"">
+					description = <"Tumor invasion into the lamina propria, sparing the muscularis propria.">
 				>
 				["at0018"] = <
 					text = <"Concomitant CIS">
@@ -240,11 +240,11 @@ ontology
 				>
 				["at0022"] = <
 					text = <"LMP-LG">
-					description = <"">
+					description = <"Non-invasive papillary tumours with minimal atypia and orderly cells.">
 				>
 				["at0023"] = <
 					text = <"HG">
-					description = <"">
+					description = <"Tumours with significant architectural and nuclear atypia, frequent mitoses, and loss of normal cell structure.">
 				>
 				["at0024"] = <
 					text = <"WHO grade 1973">
@@ -252,15 +252,17 @@ ontology
 				>
 				["at0025"] = <
 					text = <"G1">
-					description = <"">
+					description = <"Well-differentiated tumours with minimal atypia and orderly architecture.">
 				>
 				["at0026"] = <
 					text = <"G2">
-					description = <"">
+					description = <"Moderately differentiated tumours with intermediate atypia and architectural irregularities.">
 				>
 				["at0027"] = <
 					text = <"G3">
-					description = <"">
+					description = <"Poorly differentiated tumours with marked atypia, disorganized structure, and frequent mitoses.
+
+">
 				>
 			>
 		>
@@ -333,14 +335,14 @@ ontology
 				>
 				["at0016"] = <
 					text = <"*Ta (en)">
-					description = <"">
+					description = <"*Non-invasive papillary tumor confined to the urothelium. (en)">
 				>
 				["at0017"] = <
 					text = <"*T1 (en)">
-					description = <"">
+					description = <"*Tumor invasion into the lamina propria, sparing the muscularis propria. (en)">
 				>
 				["at0018"] = <
-					text = <"*Concomitant CIS (en)">
+					text = <"*Concomitant CIS(en)">
 					description = <"">
 				>
 				["at0019"] = <
