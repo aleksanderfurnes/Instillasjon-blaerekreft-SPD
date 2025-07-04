@@ -25,10 +25,14 @@ description
 	details = <
 		["nb"] = <
 			language = <[ISO_639-1::nb]>
+			purpose = <"*To support the documentation of histological grading of noninvasive urothelial tumors based on the 2004 WHO classification. (en)">
+			keywords = <"*urothelial, bladder, tumor, neoplasm, carcinoma, histology, pathology, grade, grading, classification, WHO, 2004, noninvasive (en)", ...>
 			copyright = <"© openEHR Foundation">
 		>
 		["en"] = <
 			language = <[ISO_639-1::en]>
+			purpose = <"To support the documentation of histological grading of noninvasive urothelial tumors based on the 2004 WHO classification.">
+			keywords = <"urothelial, bladder, tumor, neoplasm, carcinoma, histology, pathology, grade, grading, classification, WHO, 2004, noninvasive", ...>
 		>
 	>
 	other_details = <
@@ -38,7 +42,7 @@ description
 		["original_namespace"] = <"org.openehr">
 		["original_publisher"] = <"openEHR Foundation">
 		["custodian_namespace"] = <"org.openehr">
-		["MD5-CAM-1.0.1"] = <"fb6bd04a8a30b2ca5547e50711c4cc83">
+		["MD5-CAM-1.0.1"] = <"79019c3441c4cfee6f539f0212c9aa3b">
 		["build_uid"] = <"2b1f6cfa-1603-326c-8bd0-2b5e89b627fd">
 	>
 
@@ -67,7 +71,7 @@ ontology
 			items = <
 				["at0000"] = <
 					text = <"WHO histological grade of urothelial neoplasms (2004)">
-					description = <"WHO grade urothelial neoplasms 2004">
+					description = <"To record the histological grading of noninvasive urothelial tumors according to the 2004 WHO classification.">
 				>
 				["at0001"] = <
 					text = <"Grade">
@@ -95,7 +99,7 @@ ontology
 			items = <
 				["at0000"] = <
 					text = <"*WHO histological grade of urothelial neoplasms (2004) (en)">
-					description = <"*WHO grade urothelial neoplasms 2004 (en)">
+					description = <"*To record the histological grading of noninvasive urothelial tumors according to the 2004 WHO classification. (en)">
 				>
 				["at0001"] = <
 					text = <"*Grade (en)">
