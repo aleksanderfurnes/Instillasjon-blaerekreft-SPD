@@ -38,7 +38,7 @@ description
 		["original_namespace"] = <"org.openehr">
 		["original_publisher"] = <"openEHR Foundation">
 		["custodian_namespace"] = <"org.openehr">
-		["MD5-CAM-1.0.1"] = <"8c5551c8ccd4220df0e81e6c50d51c43">
+		["MD5-CAM-1.0.1"] = <"fb6bd04a8a30b2ca5547e50711c4cc83">
 		["build_uid"] = <"2b1f6cfa-1603-326c-8bd0-2b5e89b627fd">
 	>
 
@@ -75,19 +75,19 @@ ontology
 				>
 				["at0002"] = <
 					text = <"Papilloma">
-					description = <"">
+					description = <"A benign, exophytic urothelial lesion with normal cytology and architecture.">
 				>
 				["at0003"] = <
 					text = <"Papillary urothelial neoplasm of low malignant potential">
-					description = <"">
+					description = <"A noninvasive papillary urothelial lesion with minimal atypia and low risk of progression.">
 				>
 				["at0004"] = <
 					text = <"Papillary carcinoma, low-grade">
-					description = <"">
+					description = <"A noninvasive tumor with mild to moderate atypia and intermediate risk of recurrence and progression.">
 				>
 				["at0005"] = <
 					text = <"Papillary carcinoma, high-grade">
-					description = <"">
+					description = <"A noninvasive lesion with marked atypia and high risk of recurrence and invasion.">
 				>
 			>
 		>
@@ -102,19 +102,19 @@ ontology
 					description = <"">
 				>
 				["at0002"] = <
-					text = <"*Papilloma (en)">
+					text = <"*Papilloma(en)">
 					description = <"">
 				>
 				["at0003"] = <
-					text = <"*Papillary urothelial neoplasm of low malignant potential (en)">
+					text = <"*Papillary urothelial neoplasm of low malignant potential(en)">
 					description = <"">
 				>
 				["at0004"] = <
-					text = <"*Papillary carcinoma, low-grade (en)">
+					text = <"*Papillary carcinoma, low-grade(en)">
 					description = <"">
 				>
 				["at0005"] = <
-					text = <"*Papillary carcinoma, high-grade (en)">
+					text = <"*Papillary carcinoma, high-grade(en)">
 					description = <"">
 				>
 			>
