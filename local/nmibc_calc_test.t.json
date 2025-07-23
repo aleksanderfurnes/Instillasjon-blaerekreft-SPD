@@ -19,7 +19,7 @@
       "original_namespace" : "",
       "original_publisher" : "",
       "custodian_namespace" : "",
-      "MD5-CAM-1.0.1" : "1ec63e27b7113c5c6a02f3d67e7630fe",
+      "MD5-CAM-1.0.1" : "6aeda40e58eda0f3891763b3ebdc74ca",
       "PARENT:MD5-CAM-1.0.1" : "6562F732112B8B3F94790E178F4243A5"
     },
     "details" : {
@@ -197,9 +197,39 @@
       "references" : { },
       "conversionDetails" : { },
       "otherDetails" : {
-        "PARENT:MD5-CAM-1.0.1" : "3ba18b1cb8785cf38357da7ff7768c49"
+        "PARENT:MD5-CAM-1.0.1" : "5d2d7b1fc6dbc72cb5c0d851f4a25523"
       },
-      "details" : { }
+      "details" : {
+        "nb" : {
+          "@type" : "RESOURCE_DESCRIPTION_ITEM",
+          "language" : {
+            "terminologyId" : {
+              "value" : "ISO_639-1"
+            },
+            "codeString" : "nb"
+          },
+          "purpose" : "*To stratify patients with non–muscle-invasive bladder cancer (NMIBC) into prognostic risk groups using the EAU 2021 model based on WHO 2004/2016 or WHO 1973 grading systems, to support clinical decision-making regarding treatment following transurethral resection of bladder tumor (TURBT). (en)",
+          "keywords" : [ "*EAU NMIBC, bladder cancer, risk stratification, TURBT, WHO 2004/2016, WHO 1973, non–muscle-invasive, urothelial carcinoma, prognostic group, treatment planning. (en)" ],
+          "use" : "*To record the prognostic risk group classification of patients with non–muscle-invasive bladder cancer (NMIBC) according to the European Association of Urology (EAU) 2021 model, based on the WHO 2004/2016 or WHO 1973 grading systems. This supports structured documentation and enables clinical decision-making following transurethral resection of bladder tumour (TURBT). (en)",
+          "copyright" : "© openEHR Foundation",
+          "originalResourceUri" : { },
+          "otherDetails" : { }
+        },
+        "en" : {
+          "@type" : "RESOURCE_DESCRIPTION_ITEM",
+          "language" : {
+            "terminologyId" : {
+              "value" : "ISO_639-1"
+            },
+            "codeString" : "en"
+          },
+          "purpose" : "To stratify patients with non–muscle-invasive bladder cancer (NMIBC) into prognostic risk groups using the EAU 2021 model based on WHO 2004/2016 or WHO 1973 grading systems, to support clinical decision-making regarding treatment following transurethral resection of bladder tumor (TURBT).",
+          "keywords" : [ "EAU NMIBC, bladder cancer, risk stratification, TURBT, WHO 2004/2016, WHO 1973, non–muscle-invasive, urothelial carcinoma, prognostic group, treatment planning." ],
+          "use" : "To record the prognostic risk group classification of patients with non–muscle-invasive bladder cancer (NMIBC) according to the European Association of Urology (EAU) 2021 model, based on the WHO 2004/2016 or WHO 1973 grading systems. This supports structured documentation and enables clinical decision-making following transurethral resection of bladder tumour (TURBT).",
+          "originalResourceUri" : { },
+          "otherDetails" : { }
+        }
+      }
     },
     "parentArchetypeId" : "openEHR-EHR-CLUSTER.eau_nmibc_2021.v0",
     "differential" : true,
