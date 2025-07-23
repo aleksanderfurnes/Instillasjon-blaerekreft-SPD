@@ -46,7 +46,7 @@ Compérat EM, Burger M, Gontero P, Mostafid AH, Palou J, Rouprêt M, van Rhijn B
 		["original_namespace"] = <"org.openehr">
 		["original_publisher"] = <"openEHR Foundation">
 		["custodian_namespace"] = <"org.openehr">
-		["MD5-CAM-1.0.1"] = <"43f8670c2cc339a134b2d5730d96a536">
+		["MD5-CAM-1.0.1"] = <"5d2d7b1fc6dbc72cb5c0d851f4a25523">
 		["build_uid"] = <"b71072ad-1d6a-36d4-ba76-3b2a047ff712">
 	>
 
@@ -71,6 +71,17 @@ definition
 							[local::
 							at0009,    -- Primary
 							at0010]    -- Recurrent
+						}
+					}
+				}
+			}
+			ELEMENT[at0028] occurrences matches {0..1} matches {    -- Number of tumors
+				value matches {
+					DV_CODED_TEXT matches {
+						defining_code matches {
+							[local::
+							at0029,    -- Single
+							at0030]    -- Multiple
 						}
 					}
 				}
@@ -266,6 +277,18 @@ ontology
 
 ">
 				>
+				["at0028"] = <
+					text = <"Number of tumors">
+					description = <"">
+				>
+				["at0029"] = <
+					text = <"Single">
+					description = <"">
+				>
+				["at0030"] = <
+					text = <"Multiple">
+					description = <"">
+				>
 			>
 		>
 		["nb"] = <
@@ -381,6 +404,18 @@ ontology
 				>
 				["at0027"] = <
 					text = <"*G3 (en)">
+					description = <"">
+				>
+				["at0028"] = <
+					text = <"*Number of tumors (en)">
+					description = <"">
+				>
+				["at0029"] = <
+					text = <"*Single (en)">
+					description = <"">
+				>
+				["at0030"] = <
+					text = <"*Multiple (en)">
 					description = <"">
 				>
 			>
