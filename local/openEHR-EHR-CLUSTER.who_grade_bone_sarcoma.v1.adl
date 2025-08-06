@@ -38,7 +38,9 @@ description
 	other_details = <
 		["licence"] = <"This work is licensed under the Creative Commons Attribution-ShareAlike 4.0 International License. To view a copy of this license, visit http://creativecommons.org/licenses/by-sa/4.0/.">
 		["custodian_organisation"] = <"openEHR Foundation">
-		["references"] = <"Epstein JI, Amin MB, Reuter VR, Mostofi FK. The World Health Organization/International Society of Urological Pathology consensus classification of urothelial (transitional cell) neoplasms of the urinary bladder. Bladder Consensus Conference Committee. Am J Surg Pathol. 1998 Dec;22(12):1435-48. doi: 10.1097/00000478-199812000-00001. Review. PubMed PMID: 9850170.">
+		["references"] = <"Epstein JI, Amin MB, Reuter VR, Mostofi FK. The World Health Organization/International Society of Urological Pathology consensus classification of urothelial (transitional cell) neoplasms of the urinary bladder. Bladder Consensus Conference Committee. Am J Surg Pathol. 1998 Dec;22(12):1435-48. doi: 10.1097/00000478-199812000-00001. Review. PubMed PMID: 9850170.
+
+WHO Blue Book 2004 (Pathology and Genetics of Tumours of the Urinary System and Male Genital Organs)  ???">
 		["original_namespace"] = <"org.openehr">
 		["original_publisher"] = <"openEHR Foundation">
 		["custodian_namespace"] = <"org.openehr">
