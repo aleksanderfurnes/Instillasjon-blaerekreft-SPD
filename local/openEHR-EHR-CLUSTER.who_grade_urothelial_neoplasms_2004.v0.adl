@@ -48,7 +48,7 @@ Eble JN, Sauter G, Epstein J, Sesterhenn I (eds). Pathology and Genetics of Tumo
 		["original_namespace"] = <"org.openehr">
 		["original_publisher"] = <"openEHR Foundation">
 		["custodian_namespace"] = <"org.openehr">
-		["MD5-CAM-1.0.1"] = <"536ec2b9ecc217b70a7bc669ea355b8f">
+		["MD5-CAM-1.0.1"] = <"350ff07e8151e7ac3450749472450062">
 		["build_uid"] = <"2b1f6cfa-1603-326c-8bd0-2b5e89b627fd">
 	>
 
@@ -108,7 +108,7 @@ ontology
 					description = <"Å registrere den histologiske graderingen av ikke-invasive uroteliale svulster i henhold til WHO-klassifiseringen fra 2004.">
 				>
 				["at0001"] = <
-					text = <"Karakter">
+					text = <"Grad">
 					description = <"">
 				>
 				["at0002"] = <
