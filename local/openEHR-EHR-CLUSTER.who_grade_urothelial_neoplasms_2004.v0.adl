@@ -25,17 +25,15 @@ description
 	details = <
 		["nb"] = <
 			language = <[ISO_639-1::nb]>
-			purpose = <"*To support the documentation of histological grading of noninvasive urothelial tumors based on the 2004 WHO classification. (en)">
-			keywords = <"*urothelial, bladder, tumor, neoplasm, carcinoma, histology, pathology, grade, grading, classification, WHO, 2004, noninvasive (en)", ...>
+			purpose = <"For å støtte dokumentasjonen av histologisk gradering av ikke-invasive uroteliale svulster basert på WHO-klassifiseringen fra 2004.">
+			keywords = <"urotelial","blære","svulst","neoplasma","karsinom","histologi","patologi","grad","gradering","klassifisering","WHO","2004","ikke-invasiv">
 			copyright = <"© openEHR Foundation">
-			use = <"*To document the histological grade of noninvasive urothelial tumors in patient records, supporting clinical decision-making, treatment planning, and communication among healthcare professionals. This information aids in prognosis assessment and guides subsequent management based on the WHO 2004 classification.
-
- (en)">
+			use = <" Å dokumentere den histologiske graden av ikke-invasive uroteliale svulster i pasientjournaler, som støtter klinisk beslutningstaking, behandlingsplanlegging og kommunikasjon mellom helsepersonell. Denne informasjonen hjelper til med prognosevurdering og veileder senere behandling basert på WHO 2004-klassifiseringen.">
 		>
 		["en"] = <
 			language = <[ISO_639-1::en]>
 			purpose = <"To support the documentation of histological grading of noninvasive urothelial tumors based on the 2004 WHO classification.">
-			keywords = <"urothelial, bladder, tumor, neoplasm, carcinoma, histology, pathology, grade, grading, classification, WHO, 2004, noninvasive", ...>
+			keywords = <"urothelial","bladder","tumor","neoplasm","carcinoma","histology","pathology","grade","grading","classification","WHO","2004","noninvasive">
 			use = <"To document the histological grade of noninvasive urothelial tumors in patient records, supporting clinical decision-making, treatment planning, and communication among healthcare professionals. This information aids in prognosis assessment and guides subsequent management based on the WHO 2004 classification.
 
 ">
@@ -50,7 +48,7 @@ Eble JN, Sauter G, Epstein J, Sesterhenn I (eds). Pathology and Genetics of Tumo
 		["original_namespace"] = <"org.openehr">
 		["original_publisher"] = <"openEHR Foundation">
 		["custodian_namespace"] = <"org.openehr">
-		["MD5-CAM-1.0.1"] = <"79019c3441c4cfee6f539f0212c9aa3b">
+		["MD5-CAM-1.0.1"] = <"3bcb4c3300e936a851c8b93972078da9">
 		["build_uid"] = <"2b1f6cfa-1603-326c-8bd0-2b5e89b627fd">
 	>
 
@@ -106,27 +104,27 @@ ontology
 		["nb"] = <
 			items = <
 				["at0000"] = <
-					text = <"*WHO histological grade of urothelial neoplasms (2004) (en)">
-					description = <"*To record the histological grading of noninvasive urothelial tumors according to the 2004 WHO classification. (en)">
+					text = <"WHOs histologiske grad av uroteliale neoplasmer (2004)">
+					description = <"Å registrere den histologiske graderingen av ikke-invasive uroteliale svulster i henhold til WHO-klassifiseringen fra 2004.">
 				>
 				["at0001"] = <
-					text = <"*Grade (en)">
+					text = <"Karakter">
 					description = <"">
 				>
 				["at0002"] = <
-					text = <"*Papilloma(en)">
+					text = <"Papillom">
 					description = <"">
 				>
 				["at0003"] = <
-					text = <"*Papillary urothelial neoplasm of low malignant potential(en)">
+					text = <"Papillær urotelial neoplasme med lavt malignt potensial">
 					description = <"">
 				>
 				["at0004"] = <
-					text = <"*Papillary carcinoma, low-grade(en)">
+					text = <"Papillært karsinom, lavgradig">
 					description = <"">
 				>
 				["at0005"] = <
-					text = <"*Papillary carcinoma, high-grade(en)">
+					text = <"Papillært karsinom, høygradig">
 					description = <"">
 				>
 			>
