@@ -48,7 +48,7 @@ Eble JN, Sauter G, Epstein J, Sesterhenn I (eds). Pathology and Genetics of Tumo
 		["original_namespace"] = <"org.openehr">
 		["original_publisher"] = <"openEHR Foundation">
 		["custodian_namespace"] = <"org.openehr">
-		["MD5-CAM-1.0.1"] = <"350ff07e8151e7ac3450749472450062">
+		["MD5-CAM-1.0.1"] = <"7c4362b6a5625c4c6c7f856d0701d296">
 		["build_uid"] = <"2b1f6cfa-1603-326c-8bd0-2b5e89b627fd">
 	>
 
@@ -113,19 +113,19 @@ ontology
 				>
 				["at0002"] = <
 					text = <"Papillom">
-					description = <"">
+					description = <"En benign (godartet), eksophytisk urotelial lesjon med normal cytologi og arkitektur.">
 				>
 				["at0003"] = <
 					text = <"Papillær urotelial neoplasme med lavt malignt potensial">
-					description = <"">
+					description = <"En ikke-invasiv papillær urotelial lesjon med minimal atypi og lav risiko for progresjon.">
 				>
 				["at0004"] = <
 					text = <"Papillært karsinom, lavgradig">
-					description = <"">
+					description = <"En ikke-invasiv svulst med mild til moderat atypi og middels risiko for residiv og progresjon.">
 				>
 				["at0005"] = <
 					text = <"Papillært karsinom, høygradig">
-					description = <"">
+					description = <"En ikke-invasiv lesjon med uttalt atypi og høy risiko for residiv og invasjon.">
 				>
 			>
 		>
