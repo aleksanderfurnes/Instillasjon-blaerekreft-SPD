@@ -48,7 +48,7 @@ Eble JN, Sauter G, Epstein J, Sesterhenn I (eds). Pathology and Genetics of Tumo
 		["original_namespace"] = <"org.openehr">
 		["original_publisher"] = <"openEHR Foundation">
 		["custodian_namespace"] = <"org.openehr">
-		["MD5-CAM-1.0.1"] = <"7c4362b6a5625c4c6c7f856d0701d296">
+		["MD5-CAM-1.0.1"] = <"a0b00e5eed2bd774cb7d8116656f594d">
 		["build_uid"] = <"2b1f6cfa-1603-326c-8bd0-2b5e89b627fd">
 	>
 
@@ -61,7 +61,7 @@ definition
 						defining_code matches {
 							[local::
 							at0002,    -- Papilloma
-							at0003,    -- Papillary urothelial neoplasm of low malignant potential
+							at0003,    -- Papillary urothelial neoplasm of low malignant potential (PUNLMP)
 							at0004,    -- Papillary carcinoma, low-grade
 							at0005]    -- Papillary carcinoma, high-grade
 						}
@@ -88,7 +88,7 @@ ontology
 					description = <"A benign, exophytic urothelial lesion with normal cytology and architecture.">
 				>
 				["at0003"] = <
-					text = <"Papillary urothelial neoplasm of low malignant potential">
+					text = <"Papillary urothelial neoplasm of low malignant potential (PUNLMP)">
 					description = <"A noninvasive papillary urothelial lesion with minimal atypia and low risk of progression.">
 				>
 				["at0004"] = <
@@ -116,16 +116,16 @@ ontology
 					description = <"En benign (godartet), eksophytisk urotelial lesjon med normal cytologi og arkitektur.">
 				>
 				["at0003"] = <
-					text = <"Papillær urotelial neoplasme med lavt malignt potensial">
-					description = <"En ikke-invasiv papillær urotelial lesjon med minimal atypi og lav risiko for progresjon.">
+					text = <"*Papillary urothelial neoplasm of low malignant potential (PUNLMP)(en)">
+					description = <"*A noninvasive papillary urothelial lesion with minimal atypia and low risk of progression.">
 				>
 				["at0004"] = <
-					text = <"Papillært karsinom, lavgradig">
-					description = <"En ikke-invasiv svulst med mild til moderat atypi og middels risiko for residiv og progresjon.">
+					text = <"*Papillary carcinoma, low-grade(en)">
+					description = <"*En ikke-invasiv svulst med mild til moderat atypi og middels risiko for residiv og progresjon.">
 				>
 				["at0005"] = <
-					text = <"Papillært karsinom, høygradig">
-					description = <"En ikke-invasiv lesjon med uttalt atypi og høy risiko for residiv og invasjon.">
+					text = <"*Papillary carcinoma, high-grade(en)">
+					description = <"*En ikke-invasiv lesjon med uttalt atypi og høy risiko for residiv og invasjon.">
 				>
 			>
 		>
