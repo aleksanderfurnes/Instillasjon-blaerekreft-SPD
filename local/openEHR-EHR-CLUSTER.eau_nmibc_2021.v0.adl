@@ -48,7 +48,7 @@ Humphrey PA, Moch H, Cubilla AL, Ulbright TM, Reuter VE. The 2016 WHO Classifica
 		["original_namespace"] = <"org.openehr">
 		["original_publisher"] = <"openEHR Foundation">
 		["custodian_namespace"] = <"org.openehr">
-		["MD5-CAM-1.0.1"] = <"00cbf604ba467224f4b2413d7c376ff5">
+		["MD5-CAM-1.0.1"] = <"93571b8b07c9f78cc77736802ee58190">
 		["build_uid"] = <"b71072ad-1d6a-36d4-ba76-3b2a047ff712">
 	>
 
@@ -357,7 +357,7 @@ ontology
 					description = <"">
 				>
 				["at0015"] = <
-					text = <"Scene">
+					text = <"Stadie">
 					description = <"">
 				>
 				["at0016"] = <
