@@ -25,10 +25,10 @@ description
 	details = <
 		["nb"] = <
 			language = <[ISO_639-1::nb]>
-			purpose = <"Å støtte dokumentasjonen av histologisk gradering av ikke-invasive uroteliale svulster basert på WHO-klassifiseringen fra 2004.">
-			keywords = <"Urotelial, blære, svulst, neoplasme, karsinom, histologi, patologi, grad, gradering, klassifisering, WHO, 2004, ikke-invasiv", ...>
+			purpose = <"For å støtte dokumentasjon av histologisk gradering av ikke-invasive uroteliale tumorer basert på WHO-klassifikasjonen fra 2004.">
+			keywords = <"Urotelial","blære","tumor","neoplasi","karsinom","histologi","patologi","grad","gradering","klassifikasjon","WHO","2004","ikke-invasiv">
 			copyright = <"© openEHR Foundation">
-			use = <"Å dokumentere den histologiske graden av ikke-invasive uroteliale svulster i pasientjournaler, som støtter klinisk beslutningstaking, behandlingsplanlegging og kommunikasjon mellom helsepersonell. Denne informasjonen bidrar til vurdering av prognose og veileder videre behandling basert på WHO 2004-klassifiseringen.">
+			use = <"For å dokumentere histologisk grad av ikke-invasive uroteliale tumorer i pasientjournaler, til støtte for kliniske beslutninger, behandlingsplanlegging og kommunikasjon mellom helsepersonell. Denne informasjonen bidrar til prognosevurdering og styrer videre håndtering basert på WHO-klassifikasjonen fra 2004.">
 		>
 		["en"] = <
 			language = <[ISO_639-1::en]>
@@ -48,7 +48,7 @@ Eble JN, Sauter G, Epstein J, Sesterhenn I (eds). Pathology and Genetics of Tumo
 		["original_namespace"] = <"org.openehr">
 		["original_publisher"] = <"openEHR Foundation">
 		["custodian_namespace"] = <"org.openehr">
-		["MD5-CAM-1.0.1"] = <"f3c07e8dbe6ab4c760a93136dca05a24">
+		["MD5-CAM-1.0.1"] = <"2070b7d11363f7683869618654202ae3">
 		["build_uid"] = <"2b1f6cfa-1603-326c-8bd0-2b5e89b627fd">
 	>
 
@@ -104,8 +104,8 @@ ontology
 		["nb"] = <
 			items = <
 				["at0000"] = <
-					text = <"*WHO histological grade of urothelial neoplasms (2004)(en)">
-					description = <"*Å registrere den histologiske graderingen av ikke-invasive uroteliale svulster i henhold til WHO-klassifiseringen fra 2004.">
+					text = <"WHO-histologisk gradering av uroteliale neoplasier (2004)">
+					description = <"For å registrere histologisk gradering av ikke-invasive uroteliale tumorer i henhold til WHO-klassifikasjonen fra 2004.">
 				>
 				["at0001"] = <
 					text = <"Grad">
@@ -113,19 +113,19 @@ ontology
 				>
 				["at0002"] = <
 					text = <"Papillom">
-					description = <"En benign (godartet), eksophytisk urotelial lesjon med normal cytologi og arkitektur.">
+					description = <"En benign, eksophytisk urotelial lesjon med normal cytologi og arkitektur.">
 				>
 				["at0003"] = <
-					text = <"*Papillary urothelial neoplasm of low malignant potential (PUNLMP)(en)">
-					description = <"*A noninvasive papillary urothelial lesion with minimal atypia and low risk of progression.">
+					text = <"Papillær urotelial neoplasi med lavt malignitetspotensial (PUNLMP)">
+					description = <"En ikke-invasiv papillær urotelial lesjon med minimal atypi og lav risiko for progresjon.">
 				>
 				["at0004"] = <
-					text = <"*Papillary carcinoma, low-grade(en)">
-					description = <"*En ikke-invasiv svulst med mild til moderat atypi og middels risiko for residiv og progresjon.">
+					text = <"Papillært urotelialt karsinom, lavgradig">
+					description = <"En ikke-invasiv tumor med lett til moderat atypi og intermediær risiko for residiv og progresjon.">
 				>
 				["at0005"] = <
-					text = <"*Papillary carcinoma, high-grade(en)">
-					description = <"*En ikke-invasiv lesjon med uttalt atypi og høy risiko for residiv og invasjon.">
+					text = <"Papillært urotelialt karsinom, høygradig">
+					description = <"En ikke-invasiv lesjon med markert atypi og høy risiko for residiv og invasjon.">
 				>
 			>
 		>
