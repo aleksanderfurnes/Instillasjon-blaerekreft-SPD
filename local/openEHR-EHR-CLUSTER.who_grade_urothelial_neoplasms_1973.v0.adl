@@ -1,0 +1,132 @@
+archetype (adl_version=1.4; uid=b1f2d7e8-ba32-4661-9fc6-6c10608fbcf4)
+	openEHR-EHR-CLUSTER.who_grade_urothelial_neoplasms_1973.v0
+
+concept
+	[at0000]
+
+language
+	original_language = <[ISO_639-1::en]>
+	translations = <
+		["nb"] = <
+			language = <[ISO_639-1::nb]>
+			author = <
+			>
+		>
+	>
+
+description
+	original_author = <
+		["date"] = <"2025-05-23">
+		["name"] = <"Silje Ljosland Bakke">
+		["organisation"] = <"Helse Vest IKT AS">
+		["email"] = <"silje.ljosland.bakke@helse-vest-ikt.no">
+	>
+	lifecycle_state = <"unmanaged">
+	details = <
+		["nb"] = <
+			language = <[ISO_639-1::nb]>
+			purpose = <"For å støtte dokumentasjon av histologisk gradering av ikke-invasive uroteliale tumorer basert på WHO-klassifikasjonen fra 2004.">
+			keywords = <"Urotelial","blære","tumor","neoplasi","karsinom","histologi","patologi","grad","gradering","klassifikasjon","WHO","2004","ikke-invasiv">
+			copyright = <"© openEHR Foundation">
+			use = <"For å dokumentere histologisk grad av ikke-invasive uroteliale tumorer i pasientjournaler, til støtte for kliniske beslutninger, behandlingsplanlegging og kommunikasjon mellom helsepersonell. Denne informasjonen bidrar til prognosevurdering og styrer videre håndtering basert på WHO-klassifikasjonen fra 2004.">
+		>
+		["en"] = <
+			language = <[ISO_639-1::en]>
+			purpose = <"To support the documentation of histological grading of noninvasive urothelial tumors based on the 2004 WHO classification.">
+			keywords = <"Urothelial","bladder","tumor","neoplasm","carcinoma","histology","pathology","grade","grading","classification","WHO","2004","noninvasive">
+			use = <"To document the histological grade of noninvasive urothelial tumors in patient records, supporting clinical decision-making, treatment planning, and communication among healthcare professionals. This information aids in prognosis assessment and guides subsequent management based on the WHO 2004 classification.
+
+">
+		>
+	>
+	other_details = <
+		["licence"] = <"This work is licensed under the Creative Commons Attribution-ShareAlike 4.0 International License. To view a copy of this license, visit http://creativecommons.org/licenses/by-sa/4.0/.">
+		["custodian_organisation"] = <"openEHR Foundation">
+		["references"] = <"Epstein JI, Amin MB, Reuter VR, Mostofi FK. The World Health Organization/International Society of Urological Pathology consensus classification of urothelial (transitional cell) neoplasms of the urinary bladder. Bladder Consensus Conference Committee. Am J Surg Pathol. 1998 Dec;22(12):1435-48. doi: 10.1097/00000478-199812000-00001. Review. PubMed PMID: 9850170.
+
+Eble JN, Sauter G, Epstein J, Sesterhenn I (eds). Pathology and Genetics of Tumours of the Urinary System and Male Genital Organs. WHO Classification of Tumours, 3rd Edition, Volume 7. 2004. ISBN: 978-92-832-2415-0.">
+		["original_namespace"] = <"org.openehr">
+		["original_publisher"] = <"openEHR Foundation">
+		["custodian_namespace"] = <"org.openehr">
+		["MD5-CAM-1.0.1"] = <"e10b0f09a2b0b3b936716fba5e8fd2a6">
+		["build_uid"] = <"2b1f6cfa-1603-326c-8bd0-2b5e89b627fd">
+	>
+
+definition
+	CLUSTER[at0000] matches {    -- who_grade_urothelial_neoplasms_1973
+		items cardinality matches {1..*; unordered} matches {
+			ELEMENT[at0001] occurrences matches {0..1} matches {    -- Grade
+				value matches {
+					DV_CODED_TEXT matches {
+						defining_code matches {
+							[local::
+							at0002,    -- Papilloma
+							at0003,    -- Papillary urothelial neoplasm of low malignant potential (PUNLMP)
+							at0004,    -- Papillary carcinoma, low-grade
+							at0005]    -- Papillary carcinoma, high-grade
+						}
+					}
+				}
+			}
+		}
+	}
+
+ontology
+	term_definitions = <
+		["en"] = <
+			items = <
+				["at0000"] = <
+					text = <"who_grade_urothelial_neoplasms_1973">
+					description = <"To record the histological grading of noninvasive urothelial tumors according to the 2004 WHO classification.">
+				>
+				["at0001"] = <
+					text = <"Grade">
+					description = <"">
+				>
+				["at0002"] = <
+					text = <"Papilloma">
+					description = <"A benign, exophytic urothelial lesion with normal cytology and architecture.">
+				>
+				["at0003"] = <
+					text = <"Papillary urothelial neoplasm of low malignant potential (PUNLMP)">
+					description = <"A noninvasive papillary urothelial lesion with minimal atypia and low risk of progression.">
+				>
+				["at0004"] = <
+					text = <"Papillary carcinoma, low-grade">
+					description = <"A noninvasive tumor with mild to moderate atypia and intermediate risk of recurrence and progression.">
+				>
+				["at0005"] = <
+					text = <"Papillary carcinoma, high-grade">
+					description = <"A noninvasive lesion with marked atypia and high risk of recurrence and invasion.">
+				>
+			>
+		>
+		["nb"] = <
+			items = <
+				["at0000"] = <
+					text = <"who_grade_urothelial_neoplasms_1973">
+					description = <"For å registrere histologisk gradering av ikke-invasive uroteliale tumorer i henhold til WHO-klassifikasjonen fra 2004.">
+				>
+				["at0001"] = <
+					text = <"Grad">
+					description = <"">
+				>
+				["at0002"] = <
+					text = <"Papillom">
+					description = <"En benign, eksophytisk urotelial lesjon med normal cytologi og arkitektur.">
+				>
+				["at0003"] = <
+					text = <"Papillær urotelial neoplasi med lavt malignitetspotensial (PUNLMP)">
+					description = <"En ikke-invasiv papillær urotelial lesjon med minimal atypi og lav risiko for progresjon.">
+				>
+				["at0004"] = <
+					text = <"Papillært urotelialt karsinom, lavgradig">
+					description = <"En ikke-invasiv tumor med lett til moderat atypi og intermediær risiko for residiv og progresjon.">
+				>
+				["at0005"] = <
+					text = <"Papillært urotelialt karsinom, høygradig">
+					description = <"En ikke-invasiv lesjon med markert atypi og høy risiko for residiv og invasjon.">
+				>
+			>
+		>
+	>
