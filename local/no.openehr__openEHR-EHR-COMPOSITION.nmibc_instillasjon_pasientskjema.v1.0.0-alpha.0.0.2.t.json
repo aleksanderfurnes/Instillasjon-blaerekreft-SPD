@@ -19,7 +19,7 @@
       "original_namespace" : "",
       "original_publisher" : "",
       "custodian_namespace" : "",
-      "MD5-CAM-1.0.1" : "85d056d42fa0c90dfe6fc329880efffa",
+      "MD5-CAM-1.0.1" : "ecddc784fdf2d7155dccd2d9ec4c17a5",
       "PARENT:MD5-CAM-1.0.1" : "BBA2C8A4A40921B9CD67FB733F13FBBF"
     },
     "details" : {
@@ -521,8 +521,8 @@
                                   "selectedTerminologies" : [ "SNOMED-CT" ],
                                   "includedExternalTerminologyCodes" : [ {
                                     "terminologyId" : "SNOMED-CT",
-                                    "code" : "34436003",
-                                    "value" : "Blod i urin"
+                                    "code" : "162116003",
+                                    "value" : "Hyppig vannlating"
                                   } ]
                                 } ]
                               } ],
